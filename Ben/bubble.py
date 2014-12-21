@@ -5,7 +5,6 @@ a = open(sys.argv[1], 'r')
 b = []
 number_list = a.readlines()
 
-
 for line in number_list:
     b.append(int(line))
 
